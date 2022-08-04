@@ -74,7 +74,7 @@
                 <div class="container rounded col-lg-6 bg-white">
                     <h3 class="p-2" align='center'><b>MCM - MCD</b></h3>
                     <h4 class="p-2"> Ingrese dos números enteros positivos:</h4>
-                    <form action="resultado04.jsp" method="post">
+                    <form action="resultado04.jsp" method="GET">
                         <div class="py-2">
                             <label class="p-2">Ingrese primer número:</label>
                             <span class="p-4"><input type="number" name="numero1" value="" required="" placeholder="Ingrese un numero"/></span>
