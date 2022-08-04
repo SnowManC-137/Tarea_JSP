@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 ago. 2022, 00:50:08
+    Author     : LUIS
+*/
+#side_nav {
+    background: #000;
+    min-width: 240px;
+    max-width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -240px;
+    /*overflow-y: scroll;*/
+    transition: all 500ms linear;   
+}
+
+#side_nav.active {
+    left: 0;
+}
+
+#side_nav::-webkit-scrollbar {
+    display: none;
+}
+
+#side_nav {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.content {
+    background-color: rgb(110, 192, 188);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidebar li.active {
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: #000;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+.sidebar button.btn {
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
